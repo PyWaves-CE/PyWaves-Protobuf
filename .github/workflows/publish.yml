@@ -32,6 +32,7 @@ jobs:
     - name: Rebuild package with version tag
       if: startsWith(github.ref, 'refs/tags/v')
       run: |
+        rm -rf dist
         VERSION=${GITHUB_REF#refs/tags/v}
         poetry version $VERSION
         poetry build
