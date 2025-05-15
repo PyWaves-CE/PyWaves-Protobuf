@@ -1,5 +1,5 @@
 cd /d %~dp0
-set PROTOC_VERSION=25.7
+set PROTOC_VERSION=29.4
 set PROTO_WAVES_VERSION=1.5.2
 
 set PROTOC_URL=https://github.com/protocolbuffers/protobuf/releases/download/v%PROTOC_VERSION%/
