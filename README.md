@@ -1,5 +1,7 @@
 # PyWaves-Protobuf
 
+[![PyPI version](https://img.shields.io/pypi/v/pywaves-protobuf.svg)](https://pypi.org/project/pywaves-protobuf/)
+
 **Python Protobuf bindings for Waves blockchain.**
 
 ## Installation
